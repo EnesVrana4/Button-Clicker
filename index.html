@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+</head>
+<body>
+    <header class="flex space-between align-center">
+        <p>Dojonary</p>
+        <input type="text" value="Search">
+        <button class="button" onclick="logout(this)" value="Login">Login</button>
+    </header>
+    
+    <main class="flex">
+        <div class="left-div">
+            <div class="ninja flex align-center">
+                <div class="box ">
+                    <h1>ninja</h1>
+                    <h3 class="italic">noun</h3>
+                    <p>Plural:</p>
+                    <p class="italic">ninjas</p>
+                    <button class="button" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="paragraph">
+                    <p>A practitioner skilled in the <br><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="ninja flex align-center">
+                <div class="box ">
+                    <h1>ninja</h1>
+                    <h3 class="italic">noun</h3>
+                    <p>Plural:</p>
+                    <p class="italic">ninjas</p>
+                    <button class="button"onclick="alert('Ninja was liked')" >13 likes</button>
+                </div>
+                <div class="paragraph">
+                    <p>A <a href="#">programmer</a> who brakes<br>down problems with <a href="#">zen</a>-like <br>focus</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right-div">
+            <div class="flex dojonary">
+                <p>Dojonary is defined by <a class="bold" href="#">YOU</a></p>
+            </div>
+            <button class="button bold" onclick="remove(this)">Add Definition</button>
+
+        </div>
+        
+    </main>
+</body>
+</html>
